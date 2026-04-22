@@ -1,0 +1,94 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  color: #020202;
+  background: linear-gradient(to right, #3f58c5, #8948ca);
+}
+
+/* Main container */
+.app-container {
+  max-width: 800px;
+  margin: 50px auto;
+  background: #b1d5e0;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(54, 54, 54, 0.2);
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #08457e;
+}
+
+/* Form */
+.form-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.form-container input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #6a69b8;
+}
+
+.form-container button {
+  padding: 10px 15px;
+  border: none;
+  background: #5b69a5;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-container button:hover {
+  background: #5a67d8;
+}
+
+/* Table */
+.table-container {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-container th,
+.table-container td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.table-container th {
+  background: #172561;
+  color: white;
+}
+
+.table-container tr:hover {
+  background: #f5f5f5;
+}
+
+/* Delete button */
+.delete-btn {
+  background: #e53e3e;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: #c53030;
+}

@@ -1,9 +1,9 @@
 import './App.css';
 import React, { useState } from 'react';
-import Heading from './components/Heading';
-import AddStudent from'./components/AddStudent';
-import StudentsSummary from './components/StudentsSummary';
-import AllDetails from './components/AllDetails';
+import Heading from './Components/Heading';
+import AddStudent from'./Components/AddStudent';
+import StudentsSummary from './Components/StudentsSummary';
+import AllDetails from './Components/AllDetails';
 
 function App() {
 
